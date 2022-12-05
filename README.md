@@ -24,7 +24,7 @@ To start with the neural network model, I had to first split the wine data into 
 
 Clustering: 
 
-To begin the clustering process, I plotted the raw data by flavanoid levels and type. We can see in this plot that there are three definitive groups that may be clustered.
+To begin the clustering process, I plotted the raw data by flavanoid levels, alcohol levels, and type. It is illustrated in this plot that there are three definitive groups that may be clustered.
 
 ![image](https://user-images.githubusercontent.com/105824024/205749667-7c6a4551-f12d-4e4a-9ebe-397fd4ce773b.png)
 
