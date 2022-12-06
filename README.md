@@ -40,7 +40,7 @@ Next, I used StandardScaler to scale and fit the original data and ran a princip
 
 ![image](https://user-images.githubusercontent.com/105824024/205752664-db8f98e8-c3e8-4c94-b06a-83f6944b8415.png)
 
-Using KMeans, I created a for-loop to caculate the inertia for the range of k values in the PCA dataset. I made an elbow curve using hvplot, which shows that the curve begins to plateau around 3. 
+Using KMeans, I created a for-loop to caculate the inertia for the range of k values in the PCA dataset. I made an elbow curve using hvplot, which shows that the curve begins to plateau around 3. This again confirms that there are 3 clusters within the data.
 
 ![image](https://user-images.githubusercontent.com/105824024/205753785-508b009b-67f1-48ba-a91d-54039baa7c78.png)
 
