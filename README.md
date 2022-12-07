@@ -7,9 +7,9 @@ Allie Carlile, Brevin Owens, Andrew Swigart
 
 Proposal: Using the Wine dataset from the UC Irving Machine Learning Repository, we propose to use machine learning to categorize the dataset into the 3\ different cultivars.\ At this point, we are not planning on creating a separate website. \We do plan to use pandas and matplotlib to complete the requirements. \We also plan to devlop this as the project develops.
 
-https://archive-beta.ics.uci.edu/dataset/109/wine
+Link to [dataset](https://archive-beta.ics.uci.edu/dataset/109/wine). 
   
-
+Link to [Final Presentation](https://docs.google.com/presentation/d/1ikYg4b-R3-4N2AANHYisRfPp_l-8DsIO1cyvHnU9w_Y/edit#slide=id.p).
 
 Machine Learning:
 
