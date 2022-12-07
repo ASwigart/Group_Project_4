@@ -17,11 +17,6 @@ The machine learning portion of the project took a step by step approach to cate
 
 
 
-Neural Network: 
-
-To start with the neural network model, I had to first split the wine data into features and target arrays. I then used a label encoder from the sci-kit learn preprocessing library to shape the target or type of wine correctly. This basically ensured that our neural network model knew that we were predicting 3 types of wine versus a binary model. From there I used the train test split function to separate the data into testing and training sets. I then used the standard scaler to scale the data appropriately before running any model. 
-
-
 Clustering: 
 
 To begin the clustering process, I plotted the raw data by flavanoid levels, alcohol levels, and type. It is illustrated in this plot that there are three definitive groups that may be clustered.
@@ -50,4 +45,8 @@ After initializing and training the KMeans model, I created a return dataframe w
 
 
 
+Neural Network: 
 
+Lastly, we approached the dataset in one final way, a neural network model to predict the which of the three types our wine was. To start with the neural network model, I had to first split the wine data into features and target arrays. I then used a label encoder from the sci-kit learn preprocessing library to shape the target or type of wine correctly. This basically ensured that our neural network model knew that we were predicting 3 types of wine versus a binary model. From there I used the train test split function to separate the data into testing and training sets. I then used the standard scaler to scale the data appropriately before running any model. I then ran a base neural sequential model that started with a hidden layer with relu activation and the correct sizing of input dimensions, 13. I then compiled the model using a binary crossentropy loss argument and the adam optimizer. My next step was to fit the model using my features that were scaled against the target training set. The model performed well off the bat with a loss of 0.035 and an accuracy of 0.99259. 
+
+I then tried to change the model slightly to see if I could lower the loss and improve the accuracy of the model. The methods I tried included increasing the number of output layers in the two hidden layers, increasing the epochs of the model, and using a softmax layer as the output layer. Lastly, I ran a PCA decomposition to and used the results of this to run another neural network model. Ultimately, this model ended up performing with the lowest loss of .0329 and an accuracy of .9949.
