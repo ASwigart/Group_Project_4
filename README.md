@@ -51,4 +51,4 @@ Lastly, we approached the dataset in one final way, a neural network model to pr
 
 I then tried to change the model slightly to see if I could lower the loss and improve the accuracy of the model. The methods I tried included increasing the number of output layers in the two hidden layers, increasing the epochs of the model, and using a softmax layer as the output layer. Lastly, I ran a PCA decomposition to and used the results of this to run another neural network model. Ultimately, this model ended up performing with the lowest loss of .0329 and an accuracy of .9949.
 
-![image]()
+![image](https://github.com/ASwigart/Group_Project_4/blob/main/images/neural_scores.PNG?raw=true)
